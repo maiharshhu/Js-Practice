@@ -1,8 +1,7 @@
 const accountId = 144453
 let accountEmail = "harsh@google.com"
 var accountPassword = '12435'
-accontCity = "Jaipur"
-//we can define a variable with using const ,let and var but it is not recommended at all
+accontCity = "Jaipur" //we can define a variable with using const ,let and var but it is not recommended at all
 let accountState;
 
 accountEmail = "har@gmail.com"
