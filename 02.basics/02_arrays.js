@@ -10,6 +10,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // const all_heros = marvel_heros.concat(dc_heros)
 // console.log(all_heros)
 
+// spread operator
 // const all_new_heros = [...marvel_heros, ...dc_heros]
 // console.log(all_new_heros)
 

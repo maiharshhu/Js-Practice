@@ -1,6 +1,6 @@
-// let score = "33abc"
-// console.log(typeof score); // string
-// console.log(typeof (score)); //string
+let score = "33"
+console.log(typeof score); // string
+console.log(typeof (score)); //string
 
 
 // let valueInNumber = Number(score)
@@ -40,20 +40,20 @@
 
 // *****************************Operations *********************************
 
-let value = 3
-let nagvalue = -value
-// console.log(nagvalue);
-console.log(2 + 2);
-console.log(2 - 2);
-console.log(2 * 2);
-console.log(2 ** 3);
-console.log(2 / 3);
-console.log(2 % 3);
+// let value = 3
+// let nagvalue = -value
+// // console.log(nagvalue);
+// // console.log(2 + 2);
+// // console.log(2 - 2);
+// // console.log(2 * 2);
+// // console.log(2 ** 3);
+// console.log(2 / 3);
+// console.log(2 % 3);
 
-let str1 = "hello"
-let str2 = " harsh"
+// let str1 = "hello"
+// let str2 = " harsh"
 
-let str3 = str1 + str2
+// let str3 = str1 + str2
 // console.log(str3);
 
 // console.log("1" + 2);  //12
@@ -87,14 +87,14 @@ false + false; // 0
 
 1n + 2n; // 3n
 
-1n + 2; // TypeError: Cannot mix BigInt and other types, use explicit conversions
-2 + 1n; // TypeError: Cannot mix BigInt and other types, use explicit conversions
-"1" + 2n; // TypeError: Cannot mix BigInt and other types, use explicit conversions
+// 1n + 2; // TypeError: Cannot mix BigInt and other types, use explicit conversions
+// 2 + 1n; // TypeError: Cannot mix BigInt and other types, use explicit conversions
+// "1" + 2n; // TypeError: Cannot mix BigInt and other types, use explicit conversions
 
-1n + BigInt(2); // 3n
-Number(1n) + 2; // 3
+// 1n + BigInt(2); // 3n
+// Number(1n) + 2; // 3
 
-"foo" + "bar"; // "foobar"
-5 + "foo"; // "5foo"
-"foo" + false; // "foofalse"
-"2" + 2; // "22"
+// "foo" + "bar"; // "foobar"
+// 5 + "foo"; // "5foo"
+// "foo" + false; // "foofalse"
+// "2" + 2; // "22"

@@ -84,4 +84,4 @@
 //     c = "";
 // [, a, b, c] = result;
 // console.log(a, b, c); // "aaa" "b" "cc"
-// // console.log(result)
+// console.log(result)
