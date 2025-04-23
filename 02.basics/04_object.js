@@ -1,7 +1,7 @@
 //// we can create 2 types of object
 
 // const tinderUser = new Object() //// - This is singleton object
-const tinderUser = {} // Non singleton user
+const tinderUser = {} // Non singleton user/object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -74,13 +74,13 @@ const { courseInstructor: instructor } = course
 
 console.log(instructor);
 // In React framework we have some methods like below object
-// // **Note for future purposes** 
+// // **Note for future purposes**   
 const navbar = ({ comapany }) => {
 
 }
 navbar(comapany = "harsh")
 
-
+// jsion is like object without name
 // json
 // {
 //     "name": "Harsh",

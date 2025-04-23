@@ -18,12 +18,12 @@ const dc_heros = ["superman", "flash", "batman"]
 // const real_another_array = another_array.flat(Infinity)
 // console.log(real_another_array)
 
-console.log(Array.isArray("Harsh")) //Returns a boolean value either true or false
-console.log(Array.from("Harsh"))
-console.log(Array.from({ name: "Harsh" }))//*INTERESTING* It will ask either you want to make string from key or string from value if it is not defined then return a empty Array.
+// console.log(Array.isArray("Harsh")) //Returns a boolean value either true or false
+// console.log(Array.from("Harsh"))
+// console.log(Array.from({ name: "Harsh" }))//*INTERESTING* It will ask either you want to make string from key or string from value if it is not defined then return a empty Array.
 
-let score1 = 100
-let score2 = 200
-let score3 = 300
+// let score1 = 100
+// let score2 = 200
+// let score3 = 300
 
-console.log(Array.of(score1, score2, score3))
+// console.log(Array.of(score1, score2, score3))

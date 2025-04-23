@@ -1,4 +1,5 @@
 //Singleton
+// whenever we make object using constructor then it is called singleton
 
 const mySym = Symbol("key1")
 
@@ -33,7 +34,7 @@ JsUser.greeting = function () {
     console.log("Hello Js user");
 }
 
-// // Here using this kw we can access all the elements of object
+// // Here using this keyword we can access all the elements of object
 JsUser.greetingTwo = function () {
     console.log(`Hello Js User, ${this.name}`);
 }
