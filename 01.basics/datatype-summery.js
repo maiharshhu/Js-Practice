@@ -1,12 +1,13 @@
 //Types of datatype
 
-// primitive
+// primitive(stack)
 
 // 7types : string , Number, boolean, null, undefined, symbol, BigInt
 
 
 
 //Refrence (Non primitive)
+// (heap)
 
 // Array, Objects, Functions
 

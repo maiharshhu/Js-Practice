@@ -80,7 +80,9 @@ const navbar = ({ comapany }) => {
 }
 navbar(comapany = "harsh")
 
-// jsion is like object without name
+console.log(comapany);
+// // In react we can use destructuring in function parameters
+// json is like object without name
 // json
 // {
 //     "name": "Harsh",

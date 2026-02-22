@@ -1,14 +1,14 @@
-const user = {
-    username: "harsh",
-    price: 999,
+// const user = {
+//     username: "harsh",
+//     price: 999,
 
-    welcomeMessage: function () {
-        console.log(`${this.username}, welcome to website`);
-        // here this refers to function 
-        console.log(this)
-    }
+//     welcomeMessage: function () {
+//         console.log(`${this.username}, welcome to website`);
+//         // here this refers to function 
+//         console.log(this)
+//     }
 
-}
+// }
 
 
 // user.welcomeMessage()
@@ -39,14 +39,18 @@ const user = {
 // chai()
 
 //  Here if we user {} then compulsary need to used return keyword in parnethesis () not required.
+// explicit return
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
 
 // console.log(addTwo(1, 3))
 
+// implicit return
 // const addTwo = (num1, num2) => (num1 + num2)
 // const addTwo = (num1, num2) => { return num1 + num2 }
+
+// To return any object we need to wrap in parenthesis 
 // const addTwo = (num1, num2) => ({ username: "hitesh" })
 
-console.log(addTwo(3, 4))
+// console.log(addTwo(3, 4))

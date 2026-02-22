@@ -10,7 +10,8 @@
 (
     () => {
         console.log(`DB CONNETED TWO`);
-    })();
+    })
+();
 
 
 // iffe with name 
