@@ -15,6 +15,13 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
+console.log(JsUser["full name "])
+
+JsUser.email = "hey@harsh@gmail.com"
+// Object.freeze(JsUser)
+JsUser.email = "ae@harsh@gmail.com"
+// console.log(JsUser)
+
 // //To access the data from any object we use can do like below example
 // console.log(JsUser.email)
 // console.log(JsUser['email'])
@@ -39,5 +46,6 @@ JsUser.greetingTwo = function () {
     console.log(`Hello Js User, ${this.name}`);
 }
 
-console.log(JsUser.greeting())
-console.log(JsUser.greetingTwo())
+JsUser.greeting()
+JsUser.greetingTwo()
+

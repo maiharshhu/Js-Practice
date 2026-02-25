@@ -31,24 +31,28 @@ const obj2 = { 3: "a", 4: "b" }
 // console.log(obj3); // This will return object inside object
 // // To get rid of this we can use 
 // const obj3 = Object.assign({}, obj1, obj2)
+// const newObj = Object.assign({},obj1,obj2)
+// console.log(newObj)
 
-const obj3 = { ...obj1, ...obj2 }
+// spread Operator
+// const obj3 = { ...obj1, ...obj2 }
 // console.log(obj3);
 
-// const users = [
-//     {
-//         id: 1,
-//         email: "h@gmail.com",
-//     }, {
-//         id: 2,
-//         email: "p@gmail.com",
-//     },
-//     {
-//         id: 3,
-//         email: "c@gmail.com",
-//     },
-// ]
+const users = [
+    {
+        id: 1,
+        email: "h@gmail.com",
+    }, {
+        id: 2,
+        email: "p@gmail.com",
+    },
+    {
+        id: 3,
+        email: "c@gmail.com",
+    },
+]
 
+console.log(users.hasOwnProperty('email'))
 // console.log(users[0].email)
 // console.log(tinderUser);
 // console.log(Object.keys(tinderUser));
@@ -57,7 +61,7 @@ const obj3 = { ...obj1, ...obj2 }
 // console.log(Object.entries(tinderUser));
 
 // ////Determines whether an object has a property with the specified name.
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 const course = {
     coursename: 'Js in hindi',

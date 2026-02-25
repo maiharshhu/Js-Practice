@@ -27,3 +27,25 @@ const dc_heros = ["superman", "flash", "batman"]
 // brlet score3 = 300
 
 // console.log(Array.of(score1, score2, score3))
+
+let array1 = [1,3,6];
+let arr2 = [3,4,5];
+let arr3 = array1.concat(arr2);
+// console.log(arr3)
+
+let nesArr = [1,2,4,[3,5,6,[73,45,55]],4,5]
+let uArr = nesArr.flat(Infinity)
+// console.log(uArr)
+
+let sArr = Array.from("harsh");
+console.log(sArr)
+
+let oArr = Array.from({name:"harsh"});
+console.log(oArr)
+
+let a = 1;
+let b = 2;
+let c = 3;
+
+let mArr = Array.of(a,b,c)
+console.log(mArr)
